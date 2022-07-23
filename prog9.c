@@ -2,13 +2,12 @@
 #include<conio.h>
 int main()
 {
-    int N=5,i=1;
-    while(i<=10) 
+    int i, N;
+    printf("Enter a Number: ");
+    scanf("%d" ,&N);
+    for ( i = 1; i <= N ; i++)
     {
-        printf("\n5 multiple %d is  %d",i,N*i);
-        i++;
+        printf(" %d", i*i*i);
     }
-    
-
 
 }
